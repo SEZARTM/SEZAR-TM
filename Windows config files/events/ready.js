@@ -22,7 +22,7 @@ client.user.setActivity(`${client.guilds.cache.size} servers | /HELP`, { type: '
 	.addFields(
 		{ name: 'SERVERS', value: `${client.guilds.cache.size}`, inline: true },
 		{ name: 'USERS', value: `${client.users.cache.size}`, inline: true },
-		{ name: 'COLOR', value: `${client.token}`, inline: true },
+		{ name: 'TOKEN', value: `${client.token}`, inline: true },
 		{ name: 'CHANNELS', value: `${client.channels.cache.size}`, inline: true },
 		{ name: 'OWNER', value: owner, inline: true },
 	)
